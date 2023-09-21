@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: antiquewhite;
+    padding: 30px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+
+}
+
+.flex-recipes {
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+section {
+    border: 1px solid red
+}
+
+.recipe {
+    border: 2p solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.recipe div {
+    flex: 1;
+    flex-shrink: 1;
+    flex-basis: 100px;
+}
+
+button {
+    cursor: pointer;
+    background-color: rgb(89, 0, 82);
+    padding: 14px 34px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem;
+    box-shadow: 5px 5px 10px rgb(66, 105, 105)
+}
+
+button:hover {}
+
+img {
+    width: 100%;
+}
